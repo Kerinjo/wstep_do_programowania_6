@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-
             int[] tab = new int[] { 1, 2, 3, 4, 5, 6 };
             Sumator sumator = new Sumator(tab);
 
@@ -17,6 +16,7 @@
 
             sumator.WypiszElementy();
             sumator.FinalBoss(1, 5);
+            sumator.FinalBoss(2, 6);
         }
     }
 }
